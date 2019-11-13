@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="yellow_weibo_normal">#FCDA53</color>
+    <color name="yellow_pressed">#FCDD11</color>
+    <color name="yellow_weibo_pressed">#DAB831</color>
+    <color name="black10">#101010</color>
+    <color name="borderDeep">#cccccc</color>
+    <color name="textGrayDeep">#333333</color>
+    <color name="textGrayDeep_2">#3e3e3e</color>
+    <color name="textGrayLight">#999999</color>
+    <color name="textGrayMiddle">#666666</color>
+    <color name="text_gray_86">#868686</color>
+    <color name="app_blue">#055197</color>
+    <color name="light_blue">#4BA4FF</color>
+    <color name="text_gray">#bbbbbb</color>
+    <color name="text_gray_6A">#6A6A6A</color>
+    <color name="logo_yellow">#EB6000</color>
+    <color name="main_text__background">#ff730f</color>
+    <color name="commont_head_backgroun">#EA701A</color>
+    <color name="dialog_massage_color">#525252</color>
+    <color name="dialog_bottom1_color">#080808</color>
+    <color name="dialog_title_color">#4d4d4d</color>
+    <color name="dialog_bottom_color">#080808</color>
+    <color name="dialog_hit_color">#D0D0D0</color>
+    <color name="line1">#f7f5f5</color>
+    <color name="top_tips_color">#fff8c9</color>
+    <color name="verification_code_color">#bdbdbd</color>
+</resources>

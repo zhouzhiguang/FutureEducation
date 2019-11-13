@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">未来教室</string>
+    <string name="upload">上传</string>
+    <string name="hint">提示</string>
+    <string name="recording">音频</string>
+    <string name="video">视频</string>
+    <string name="upload_hint">请选择上传文件的类型</string>
+    <string name="start_recording">按下说话</string>
+    <string name="video_record">视频录制</string>
+    <string name="start_camera_to_record_failed">启动摄像头录制视频失败</string>
+    <string name="stop_fail_maybe_stopped">停止失败，可能已经停止</string>
+    <string name="connect_vedio_device_fail">无法连接视频设备 ，请稍候再试</string>
+    <string name="capture_video_size_in_kb">视频文件大小为: %1$dKB,</string>
+    <string name="capture_video_size_in_mb">视频文件大小为: %1$.2fMB,</string>
+    <string name="is_send_video">是否发送该视频？</string>
+    <string name="fetchweb">post网页内容</string>
+    <string name="QRcode">二维码</string>
+    <string name="scan_qrcode">扫描二维码</string>
+    <string name="budilqrcode">生成二维码</string>
+    <string name="scan">扫一扫</string>
+    <string name="qrcode">二维码</string>
+    <string name="budil_qrcode">生成二维码</string>
+    <string name="budil">生成</string>
+</resources>

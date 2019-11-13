@@ -1,0 +1,26 @@
+ext {
+
+    android = [
+            compileSdkVersion: 29,
+            minSdkVersion    : 15,
+            targetSdkVersion : 29,
+            buildToolsVersion: "29.0.2",
+    ]
+
+    dependencies = [
+            rxjava          : "io.reactivex.rxjava2:rxjava:2.2.14",
+            rxandroid       : "io.reactivex.rxjava2:rxandroid:2.1.1",
+            glide           : 'com.github.bumptech.glide:glide:4.9.0',
+            glideCompiler   : 'com.github.bumptech.glide:compiler:4.9.0',
+            calendarview    : 'com.github.prolificinteractive:material-calendarview:2.0.0',
+            cc              : 'com.billy.android:cc:2.1.5',
+            androidx        : 'androidx.appcompat:appcompat:1.1.0',
+            //这里使用的是 URLConnection 如果使用okhttp 就用 com.yanzhenjie:okalle:0.1.5
+            Kalle           : 'com.yanzhenjie:kalle:0.1.7',
+            //权限申请库 支持Androidx 的
+            AndPermission   : "com.yanzhenjie.permission:x:2.0.1",
+            constraintlayout: 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+
+    ]
+}

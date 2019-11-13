@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.futureeducation.commonmodule.view.CommonShapeButton
+        android:id="@+id/upload"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_50"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/upload"
+        android:textColor="@color/textGrayDeep"
+        android:textSize="@dimen/dp_16"
+        app:csb_activeEnable="true"
+        app:csb_fillColor="@color/white"
+        app:csb_pressedColor="@color/text_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upload">
+
+        <com.futureeducation.commonmodule.view.CommonShapeButton
+            android:id="@+id/fetchweb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/fetchweb"
+            android:textColor="@color/textGrayDeep"
+            android:textSize="@dimen/dp_16"
+            app:csb_activeEnable="true"
+            app:csb_fillColor="@color/white"
+            app:csb_pressedColor="@color/text_gray" />
+
+        <com.futureeducation.commonmodule.view.CommonShapeButton
+            android:id="@+id/QRcode"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/QRcode"
+            android:textColor="@color/textGrayDeep"
+            android:textSize="@dimen/dp_16"
+            app:csb_activeEnable="true"
+            app:csb_fillColor="@color/white"
+            app:csb_pressedColor="@color/text_gray" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
