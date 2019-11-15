@@ -21,4 +21,9 @@
     <string name="qrcode">二维码</string>
     <string name="budil_qrcode">生成二维码</string>
     <string name="budil">生成</string>
+    <string name="qrcode_hint">请输入生成二维码信息</string>
+    <string name="statistical">统计图表</string>
+    <string name="statistical_date">统计数据</string>
+    <string name="speech_recognition">语音识别</string>
+    <string name="start">开始语音识别</string>
 </resources>

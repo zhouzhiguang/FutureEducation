@@ -40,6 +40,7 @@
             android:clickable="true"
             android:gravity="center"
             android:text="@string/fetchweb"
+            app:csb_cornerRadius="@dimen/dp_5"
             android:textColor="@color/textGrayDeep"
             android:textSize="@dimen/dp_16"
             app:csb_activeEnable="true"
@@ -56,12 +57,46 @@
             android:clickable="true"
             android:gravity="center"
             android:text="@string/QRcode"
+            app:csb_cornerRadius="@dimen/dp_5"
             android:textColor="@color/textGrayDeep"
             android:textSize="@dimen/dp_16"
             app:csb_activeEnable="true"
             app:csb_fillColor="@color/white"
             app:csb_pressedColor="@color/text_gray" />
 
+        <com.futureeducation.commonmodule.view.CommonShapeButton
+            android:id="@+id/statistical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/statistical"
+            android:textColor="@color/textGrayDeep"
+            android:textSize="@dimen/dp_16"
+            app:csb_activeEnable="true"
+            app:csb_cornerRadius="@dimen/dp_5"
+            app:csb_fillColor="@color/white"
+            app:csb_pressedColor="@color/text_gray" />
+
+        <com.futureeducation.commonmodule.view.CommonShapeButton
+            android:id="@+id/speech_recognition"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/speech_recognition"
+            android:textColor="@color/textGrayDeep"
+            android:textSize="@dimen/dp_16"
+            app:csb_activeEnable="true"
+            app:csb_cornerRadius="@dimen/dp_5"
+            app:csb_fillColor="@color/white"
+            app:csb_pressedColor="@color/text_gray" />
     </LinearLayout>
 
 

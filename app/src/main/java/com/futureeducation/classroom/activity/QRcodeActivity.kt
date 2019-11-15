@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import com.apkfuns.logutils.LogUtils
+import com.bumptech.glide.Glide
 import com.futureeducation.classroom.R
+import com.futureeducation.classroom.event.BudilQrcodeEvent
 import com.futureeducation.classroom.event.ScanResultEvent
 import com.futureeducation.commonmodule.activities.CommonActivity
 import com.futureeducation.commonmodule.constants.CommonConstants
@@ -113,10 +115,29 @@ class QRcodeActivity : CommonActivity() {
                 .observeOn(AndroidSchedulers.mainThread())
                 //.observeOn(Schedulers.IO());//因为上面是Thread.sleep,让主线程sleep了，所以下面要切换线程，真实环境则不需要这一行代码
                 .subscribe {
+                    scanresult.visibility = View.VISIBLE
+                    qrcode_iamge.visibility = View.GONE
                     scanresult.text = resulttext
 
                 }
         }
+    }
+
+    @RxSubscribe(isSticky = false)
+    fun onEvent(event: BudilQrcodeEvent) {
+        Observable.timer(1, java.util.concurrent.TimeUnit.MILLISECONDS)
+            .compose(this.bindToLifecycle())
+            .observeOn(AndroidSchedulers.mainThread())
+            //.observeOn(Schedulers.IO());//因为上面是Thread.sleep,让主线程sleep了，所以下面要切换线程，真实环境则不需要这一行代码
+            .subscribe {
+                scanresult.visibility = View.GONE
+                qrcode_iamge.visibility = View.VISIBLE
+                var iamgepath = event.path
+                LogUtils.e("保存的二维码$iamgepath")
+                if (!TextUtils.isEmpty(iamgepath)) {
+                    Glide.with(this).load(iamgepath).into(qrcode_iamge)
+                }
+            }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

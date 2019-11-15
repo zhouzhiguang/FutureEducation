@@ -1,2 +1,2 @@
-include ':app', ':commonmodule'
+include ':app', ':commonmodule', ':speechDemo'
 rootProject.name='FutureEducation'

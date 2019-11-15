@@ -56,5 +56,12 @@ class HomeActivity : CommonActivity() {
             //二维码扫描生成
             jumpActivity(Intent(this, QRcodeActivity::class.java))
         }
+        //统计图表
+        statistical.setOnClickListener {
+            jumpActivity(Intent(this, StatisticalActivity::class.java))
+        }
+        speech_recognition.setOnClickListener {
+            jumpActivity(Intent(this,SpeechRecognitionActivity::class.java))
+        }
     }
 }

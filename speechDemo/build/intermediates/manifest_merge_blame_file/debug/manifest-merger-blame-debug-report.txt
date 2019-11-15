@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iflytek.voicedemo"
+4    android:versionCode="1"
+5    android:versionName="2.0.1018.1013" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:99:5-71
+11-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:99:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:100:5-67
+12-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:100:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:101:5-79
+13-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:101:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:102:5-76
+14-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:102:22-73
+15    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+15-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:103:5-79
+15-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:103:22-76
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:104:5-75
+16-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:104:22-72
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:105:5-79
+17-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:105:22-76
+18    <uses-permission android:name="android.permission.READ_CONTACTS" />
+18-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:106:5-72
+18-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:106:22-69
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:107:5-81
+19-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:107:22-78
+20    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+20-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:108:2-70
+20-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:108:19-67
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:109:2-77
+21-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:109:19-74
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:105:5-79
+22-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:105:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:111:5-81
+23-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:111:22-78
+24
+25    <application
+25-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:7:5-96:19
+26        android:name="com.iflytek.voicedemo.SpeechApp"
+26-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:9:9-33
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/icon"
+29-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:8:9-38
+30        android:label="讯飞语音示例"
+30-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:10:9-31
+31        android:testOnly="true" >
+32        <activity
+32-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:11:9-22:20
+33            android:name="com.iflytek.voicedemo.MainActivity"
+33-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:12:13-62
+34            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+34-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:13:13-133
+35            android:icon="@drawable/icon"
+35-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:14:13-42
+36            android:label="讯飞语音示例"
+36-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:15:13-35
+37            android:screenOrientation="portrait" >
+37-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:16:13-49
+38            <intent-filter>
+38-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:17:13-21:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:18:17-69
+39-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:18:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:20:17-77
+41-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:20:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.iflytek.speech.setting.TtsSettings" >
+44-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:23:9-24:20
+44-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:23:19-72
+45        </activity>
+46        <activity android:name="com.iflytek.speech.setting.IatSettings" >
+46-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:25:9-26:20
+46-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:25:19-72
+47        </activity>
+48        <activity
+48-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:27:9-31:20
+49            android:name="com.iflytek.voicedemo.IatDemo"
+49-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:28:13-57
+50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+50-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:29:13-133
+51            android:screenOrientation="portrait" >
+51-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:30:13-49
+52        </activity>
+53        <activity
+53-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:32:9-36:20
+54            android:name="com.iflytek.voicedemo.AsrDemo"
+54-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:33:13-57
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+55-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:34:13-133
+56            android:screenOrientation="portrait" >
+56-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:35:13-49
+57        </activity>
+58        <activity
+58-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:37:9-41:20
+59            android:name="com.iflytek.voicedemo.TtsDemo"
+59-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:38:13-57
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+60-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:39:13-133
+61            android:screenOrientation="portrait" >
+61-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:40:13-49
+62        </activity>
+63        <activity
+63-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:42:9-46:20
+64            android:name="com.iflytek.voicedemo.IseDemo"
+64-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:43:13-57
+65            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+65-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:44:13-133
+66            android:screenOrientation="portrait" >
+66-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:45:13-49
+67        </activity>
+68        <activity
+68-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:47:9-51:20
+69            android:name="com.iflytek.voicedemo.vocalverify.VocalVerifyDemo"
+69-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:48:13-77
+70            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+70-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:49:13-133
+71            android:screenOrientation="portrait" >
+71-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:50:13-49
+72        </activity>
+73        <activity
+73-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:52:9-56:20
+74            android:name="com.iflytek.voicedemo.faceonline.OnlineFaceDemo"
+74-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:53:13-75
+75            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+75-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:54:13-133
+76            android:screenOrientation="portrait" >
+76-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:55:13-49
+77        </activity>
+78        <activity
+78-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:57:9-61:20
+79            android:name="com.iflytek.voicedemo.IdentifyGroup.GroupManagerActivity"
+79-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:58:13-84
+80            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+80-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:59:13-133
+81            android:screenOrientation="portrait" >
+81-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:60:13-49
+82        </activity>
+83        <activity
+83-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:62:9-66:20
+84            android:name="com.iflytek.voicedemo.IdentifyGroup.FaceIdentifyActivity"
+84-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:63:13-84
+85            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+85-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:64:13-133
+86            android:screenOrientation="portrait" >
+86-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:65:13-49
+87        </activity>
+88        <activity
+88-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:67:9-71:20
+89            android:name="com.iflytek.voicedemo.IdentifyGroup.VocalIdentifyActivity"
+89-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:68:13-85
+90            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+90-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:69:13-133
+91            android:screenOrientation="portrait" >
+91-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:70:13-49
+92        </activity>
+93        <activity
+93-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:72:9-76:20
+94            android:name="com.iflytek.voicedemo.IdentifyGroup.ResultIdentifyActivity"
+94-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:73:13-86
+95            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+95-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:74:13-133
+96            android:screenOrientation="portrait" >
+96-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:75:13-49
+97        </activity>
+98        <activity
+98-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:77:9-81:20
+99            android:name="com.iflytek.speech.setting.IseSettings"
+99-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:78:13-66
+100            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+100-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:79:13-133
+101            android:screenOrientation="portrait" >
+101-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:80:13-49
+102        </activity>
+103        <activity
+103-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:82:9-86:20
+104            android:name="com.iflytek.speech.setting.UrlSettings"
+104-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:83:13-66
+105            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+105-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:84:13-133
+106            android:screenOrientation="portrait" >
+106-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:85:13-49
+107        </activity>
+108        <!-- 移动统计分析 -->
+109        <meta-data
+109-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:88:9-90:42
+110            android:name="IFLYTEK_APPKEY"
+110-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:89:13-42
+111            android:value="&apos;5cee406c&apos;" />
+111-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:90:13-29
+112        <meta-data
+112-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:91:9-93:44
+113            android:name="IFLYTEK_CHANNEL"
+113-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:92:13-43
+114            android:value="Android_Demo" />
+114-->F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:93:13-41
+115    </application>
+116
+117</manifest>

@@ -69,8 +69,16 @@
         android:layout_height="@dimen/dp_0"
         android:layout_weight="1"
         android:gravity="center"
+        android:visibility="gone"
         android:includeFontPadding="false"
         android:textColor="@color/textGrayDeep"
         android:textSize="@dimen/dp_16" />
+
+    <ImageView
+        android:id="@+id/qrcode_iamge"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100" />
 
 </LinearLayout>

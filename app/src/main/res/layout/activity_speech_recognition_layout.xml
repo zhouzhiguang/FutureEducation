@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.hjq.bar.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/speech_recognition"
+        app:titleColor="#000"
+        app:titleSize="@dimen/dp_18" />
+
+    <com.futureeducation.commonmodule.view.CommonShapeButton
+        android:id="@+id/start_record"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColor="@color/textGrayDeep"
+        android:textSize="@dimen/dp_16"
+        app:csb_activeEnable="true"
+        app:csb_cornerRadius="@dimen/dp_5"
+        app:csb_fillColor="@color/white"
+        app:csb_pressedColor="@color/text_gray" />
+
+    <TextView
+        android:id="@+id/result_speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/dp_20"
+        android:text="结果"
+        android:paddingRight="@dimen/dp_20"
+        android:textColor="@color/textGrayDeep"
+        android:textSize="@dimen/dp_16" />
+
+</LinearLayout>

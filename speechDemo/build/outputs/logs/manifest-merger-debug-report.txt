@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cea7e4102cf9cc3248a6c23aa57543fe\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7ad2c5c675b9d01963abbef74235507e\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a107a5b747947b698977e55a06f1cb7e\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\17d81acd1cd7161e4a7d7f3dfb1a7619\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d2b8579131bd8b3dfcf2be86baf9addf\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\af090e1b53a3a7b5537e1c3d16dc541b\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6600e2e5229d1044584990c204fcd616\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8430afdc80699f0c5bc824a4ef8ece40\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\680f74ada6e1ec681e3fd36feb0cef89\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\11e0138b314f2660db2230f24800a186\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6d019a6840916bc7521f3d99ea19b8ab\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\03c83fbb46f5a966aed50a57b3e4da09\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f712bc3c82fc2918fe6a2f5a0da96c0d\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1e7846eca1396fc1f9c9a819fac2fa0e\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b7c99f5e8f80c5ac609eb66354b12bc0\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dbbb07fe5a57bf294b0986c81c1883e3\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3d930d4d176afb45d49b1d820672c995\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3dc71003a9aeaab7bf7cfe6bcfd5aabc\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\371dfda4ccc354c5f115bf0531ee5cf9\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\598443d3402e463dee2264d8e150edde\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2aa1452dd75f1eee4928f618ea14308\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b636da2f12802331f623f36567c51579\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d612bfb255b13591bc818a33822a61\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9cde0a8c3b002f0426cb2fd4154cb4d6\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:1-113:12
+	package
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:5:5-40
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+application
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:7:5-96:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1e7846eca1396fc1f9c9a819fac2fa0e\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1e7846eca1396fc1f9c9a819fac2fa0e\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:10:9-31
+	android:icon
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:8:9-38
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:9:9-33
+activity#com.iflytek.voicedemo.MainActivity
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:11:9-22:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:16:13-49
+	android:label
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:15:13-35
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:13:13-133
+	android:icon
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:14:13-42
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:12:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:20:27-74
+activity#com.iflytek.speech.setting.TtsSettings
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:23:19-72
+activity#com.iflytek.speech.setting.IatSettings
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:25:9-26:20
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:25:19-72
+activity#com.iflytek.voicedemo.IatDemo
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:27:9-31:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:30:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:29:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:28:13-57
+activity#com.iflytek.voicedemo.AsrDemo
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:32:9-36:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:35:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:34:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:33:13-57
+activity#com.iflytek.voicedemo.TtsDemo
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:37:9-41:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:40:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:39:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:38:13-57
+activity#com.iflytek.voicedemo.IseDemo
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:42:9-46:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:44:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:43:13-57
+activity#com.iflytek.voicedemo.vocalverify.VocalVerifyDemo
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:47:9-51:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:50:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:49:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:48:13-77
+activity#com.iflytek.voicedemo.faceonline.OnlineFaceDemo
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:52:9-56:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:55:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:54:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:53:13-75
+activity#com.iflytek.voicedemo.IdentifyGroup.GroupManagerActivity
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:57:9-61:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:60:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:59:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:58:13-84
+activity#com.iflytek.voicedemo.IdentifyGroup.FaceIdentifyActivity
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:62:9-66:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:65:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:64:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:63:13-84
+activity#com.iflytek.voicedemo.IdentifyGroup.VocalIdentifyActivity
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:67:9-71:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:70:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:69:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:68:13-85
+activity#com.iflytek.voicedemo.IdentifyGroup.ResultIdentifyActivity
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:72:9-76:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:75:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:74:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:73:13-86
+activity#com.iflytek.speech.setting.IseSettings
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:77:9-81:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:80:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:79:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:78:13-66
+activity#com.iflytek.speech.setting.UrlSettings
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:82:9-86:20
+	android:screenOrientation
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:85:13-49
+	android:configChanges
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:84:13-133
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:83:13-66
+meta-data#IFLYTEK_APPKEY
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:88:9-90:42
+	android:value
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:90:13-29
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:89:13-42
+meta-data#IFLYTEK_CHANNEL
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:91:9-93:44
+	android:value
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:93:13-41
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:92:13-43
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:99:5-71
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:99:22-68
+uses-permission#android.permission.INTERNET
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:100:5-67
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:100:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:101:5-79
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:101:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:102:5-76
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:102:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:103:5-79
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:103:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:104:5-75
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:104:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:105:5-79
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:105:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:106:5-72
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:106:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:107:5-81
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:107:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:108:2-70
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:108:19-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:109:2-77
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:109:19-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:111:5-81
+	android:name
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml:111:22-78
+uses-sdk
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cea7e4102cf9cc3248a6c23aa57543fe\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cea7e4102cf9cc3248a6c23aa57543fe\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7ad2c5c675b9d01963abbef74235507e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7ad2c5c675b9d01963abbef74235507e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a107a5b747947b698977e55a06f1cb7e\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a107a5b747947b698977e55a06f1cb7e\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\17d81acd1cd7161e4a7d7f3dfb1a7619\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\17d81acd1cd7161e4a7d7f3dfb1a7619\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d2b8579131bd8b3dfcf2be86baf9addf\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d2b8579131bd8b3dfcf2be86baf9addf\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\af090e1b53a3a7b5537e1c3d16dc541b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\af090e1b53a3a7b5537e1c3d16dc541b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6600e2e5229d1044584990c204fcd616\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6600e2e5229d1044584990c204fcd616\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8430afdc80699f0c5bc824a4ef8ece40\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8430afdc80699f0c5bc824a4ef8ece40\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\680f74ada6e1ec681e3fd36feb0cef89\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\680f74ada6e1ec681e3fd36feb0cef89\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\11e0138b314f2660db2230f24800a186\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\11e0138b314f2660db2230f24800a186\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6d019a6840916bc7521f3d99ea19b8ab\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6d019a6840916bc7521f3d99ea19b8ab\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\03c83fbb46f5a966aed50a57b3e4da09\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\03c83fbb46f5a966aed50a57b3e4da09\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f712bc3c82fc2918fe6a2f5a0da96c0d\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f712bc3c82fc2918fe6a2f5a0da96c0d\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dc0540ac7d2e8b1b45e31aef29de8c97\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1e7846eca1396fc1f9c9a819fac2fa0e\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1e7846eca1396fc1f9c9a819fac2fa0e\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b7c99f5e8f80c5ac609eb66354b12bc0\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b7c99f5e8f80c5ac609eb66354b12bc0\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dbbb07fe5a57bf294b0986c81c1883e3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dbbb07fe5a57bf294b0986c81c1883e3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3d930d4d176afb45d49b1d820672c995\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3d930d4d176afb45d49b1d820672c995\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3dc71003a9aeaab7bf7cfe6bcfd5aabc\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3dc71003a9aeaab7bf7cfe6bcfd5aabc\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\371dfda4ccc354c5f115bf0531ee5cf9\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\371dfda4ccc354c5f115bf0531ee5cf9\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\598443d3402e463dee2264d8e150edde\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\598443d3402e463dee2264d8e150edde\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2aa1452dd75f1eee4928f618ea14308\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2aa1452dd75f1eee4928f618ea14308\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b636da2f12802331f623f36567c51579\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b636da2f12802331f623f36567c51579\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d612bfb255b13591bc818a33822a61\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d612bfb255b13591bc818a33822a61\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9cde0a8c3b002f0426cb2fd4154cb4d6\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9cde0a8c3b002f0426cb2fd4154cb4d6\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		ADDED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
+		INJECTED from F:\code\FutureEducation\speechDemo\src\main\AndroidManifest.xml
