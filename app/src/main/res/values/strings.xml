@@ -26,4 +26,8 @@
     <string name="statistical_date">统计数据</string>
     <string name="speech_recognition">语音识别</string>
     <string name="start">开始语音识别</string>
+    <string name="picture_video">图片转视频</string>
+    <string name="add_image">添加</string>
+    <string name="error_gif">长宽不小于 %1$dpx，且大小不超过 %2$sM。</string>
+    <string name="transform">生成视频</string>
 </resources>

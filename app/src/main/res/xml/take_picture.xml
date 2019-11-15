@@ -2,7 +2,7 @@
 <paths>
     <external-path
             name="files_root"
-            path="Android/data/cn.futureeducation.takepicture/" />
+            path="Android/data/cn.fude.takepicture/" />
     <external-path
             name="external_storage_root"
             path="." />

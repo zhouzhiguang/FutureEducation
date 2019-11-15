@@ -24,3 +24,5 @@
 -dontwarn org.apache.commons.codec.binary.**
 -keep class com.iflytek.**{*;}
 -keepattributes Signature
+-dontwarn com.squareup.picasso.**
+-dontwarn com.bumptech.glide.**

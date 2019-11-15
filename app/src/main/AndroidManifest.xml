@@ -29,6 +29,11 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activity.PictureVideoActivity"
+            android:label="图片合成视频"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FututeEducation" />
+        <activity
             android:name=".activity.SpeechRecognitionActivity"
             android:label="语音识别功能"
             android:screenOrientation="portrait"
@@ -104,6 +109,16 @@
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
+
+        <provider
+            android:name=".fileprovider.SelectImageFileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/select_image"></meta-data>
+        </provider>
     </application>
 
 </manifest>

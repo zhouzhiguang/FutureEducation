@@ -60,8 +60,14 @@ class HomeActivity : CommonActivity() {
         statistical.setOnClickListener {
             jumpActivity(Intent(this, StatisticalActivity::class.java))
         }
+        //语音识别
         speech_recognition.setOnClickListener {
-            jumpActivity(Intent(this,SpeechRecognitionActivity::class.java))
+            jumpActivity(Intent(this, SpeechRecognitionActivity::class.java))
+        }
+        picture_video.setOnClickListener {
+            //图片转视频
+            jumpActivity(Intent(this, PictureVideoActivity::class.java))
+
         }
     }
 }
