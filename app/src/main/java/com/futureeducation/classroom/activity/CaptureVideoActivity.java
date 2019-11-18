@@ -390,6 +390,8 @@ public class CaptureVideoActivity extends UI implements SurfaceHolder.Callback {
                 profile.videoFrameHeight = currentUsePoint.y;
             }
             profile.fileFormat = MediaRecorder.OutputFormat.MPEG_4;
+            String bmodel = Build.MODEL;
+            LogUtils.e("哥想看看bmodel" + bmodel);
             if (Build.MODEL.equalsIgnoreCase("MB525") || Build.MODEL.equalsIgnoreCase("C8812") ||
                     Build.MODEL.equalsIgnoreCase("C8650")) {
                 profile.videoCodec = MediaRecorder.VideoEncoder.H263;

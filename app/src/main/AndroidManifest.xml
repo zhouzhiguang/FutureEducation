@@ -112,12 +112,12 @@
 
         <provider
             android:name=".fileprovider.SelectImageFileProvider"
-            android:authorities="${applicationId}.fileprovider"
+            android:authorities="com.futureeducation.classroom.fileprovider.SelectImageFileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/select_image"></meta-data>
+                android:resource="@xml/select_image" />
         </provider>
     </application>
 
